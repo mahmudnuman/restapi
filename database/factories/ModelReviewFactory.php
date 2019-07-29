@@ -10,7 +10,7 @@ $factory->define(App\Model\Review::class, function (Faker $faker) {
     	},
 
     	'customer' => $faker->name,
-    	'star' => $faker->numberBetween(1,30),
+    	'star' => $faker->numberBetween(1,5),
         'review' => $faker->paragraph,
         
     ];
