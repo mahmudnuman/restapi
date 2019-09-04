@@ -6,6 +6,7 @@ use App\Model\Product;
 use App\Http\Requests\ProductRequest;
 use App\Http\Resources\Product\ProductCollection;
 use App\Http\Resources\Product\ProductResource;
+use Symfony\Component\HttpFoundation\Response;
 class ProductController extends Controller
 {
 
@@ -60,7 +61,7 @@ class ProductController extends Controller
             return response([
 
                 "data" => new ProductResource($product)
-            ],201);
+            ],Response::HTTP_CREATED);
 
 
     }

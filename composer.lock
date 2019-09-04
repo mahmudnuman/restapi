@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81a2001fe6ba6c021f6a91a7d51fd573",
+    "content-hash": "22faebd9dd2b303584e49891a2827498",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -2401,16 +2401,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.29",
+            "version": "v3.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "8cfbf75bb3a72963b12c513a73e9247891df24f8"
+                "reference": "b3d57a1c325f39f703b249bed7998ce8c64236b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8cfbf75bb3a72963b12c513a73e9247891df24f8",
-                "reference": "8cfbf75bb3a72963b12c513a73e9247891df24f8",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b3d57a1c325f39f703b249bed7998ce8c64236b4",
+                "reference": "b3d57a1c325f39f703b249bed7998ce8c64236b4",
                 "shasum": ""
             },
             "require": {
@@ -2451,7 +2451,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-22T20:10:25+00:00"
+            "time": "2019-08-26T07:50:50+00:00"
         },
         {
             "name": "symfony/http-kernel",
